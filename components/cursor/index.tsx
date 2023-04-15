@@ -14,7 +14,7 @@ const Cursor: FC = () => {
 
     const onMouseDown = useCallback(() => {
         setScale(1.25)
-    }, [setCoords]);
+    }, [setScale]);
 
     useEffect(() => {
         window.addEventListener("mousemove", (e) => onMouseMove(e));
