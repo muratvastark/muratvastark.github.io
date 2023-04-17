@@ -1,6 +1,7 @@
 import { useLanyard } from "use-lanyard";
 import SectionCard from "@/components/section-card";
 import { FC } from "react";
+import Image from "next/image";
 
 const SectionFive: FC = () => {
     const { data } = useLanyard("470974660264067072");
@@ -14,7 +15,7 @@ const SectionFive: FC = () => {
                     <div className={"line3"} aria-hidden />
                     <div className="discord-card flex flex-col md:flex-row">
                         <div className="shine"></div>
-                        <img
+                        <Image
                             src={`https://cdn.discordapp.com/avatars/${data?.discord_user.id}/${data?.discord_user.avatar}`}
                             alt="avatar"
                             className="w-16 h-16 rounded-2xl"
