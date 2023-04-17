@@ -26,6 +26,7 @@ const SectionThree: FC = () => {
           {
             repositories.map((repository, i) => (
               <Link
+                key={i}
                 onMouseLeave={() => play()}
                 onMouseEnter={() => stop()}
                 className="bg-[#131315] hover:bg-[#1c1d1f] px-6 py-5 rounded-md border border-[#313035] hover:-translate-y-0.5 duration-75"
