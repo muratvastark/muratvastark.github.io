@@ -19,7 +19,7 @@ const SectionTwo: FC = () => {
         <section>
             <SectionCard className="flex-col relative mt-5">
                 <div className="uppercase tracking-[4px] text-sm text-neutral-500 font-medium">Tools</div>
-                <div className="grid grid-cols-3 md:grid-cols-6 gap-2 mt-6 items-center">
+                <div className="grid grid-cols-6 gap-2 mt-6 items-center">
                     {
                         languages.map((language, i) => (
                             <div

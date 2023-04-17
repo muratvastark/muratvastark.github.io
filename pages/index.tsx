@@ -4,12 +4,10 @@ import SectionOne from "@/components/sections/section-one";
 import SectionTwo from "@/components/sections/section-two";
 import SectionThree from "@/components/sections/section-three";
 import SectionFour from "@/components/sections/section-four";
-import { useLanyard } from "use-lanyard";
 import Cursor from "@/components/cursor";
+import SectionFive from "@/components/sections/section-five";
 
 export default function Home() {
-  const { data } = useLanyard("470974660264067072");
-
   return (
     <Layout title="Muratva Stark's Website">
       <Cursor />
@@ -18,12 +16,7 @@ export default function Home() {
         <SectionTwo />
         <SectionThree />
         <SectionFour />
-{/* 
-         <img
-              src={`https://cdn.discordapp.com/avatars/${data?.discord_user.id}/${data?.discord_user.avatar}`}
-              alt="avatar"
-              className="w-30 h-30 rounded-2xl shadow-[0_3px_50px_-12px_rgb(255,255,255)]"
-            />  */}
+        <SectionFive />
 
         <section>
           <SectionCard className="my-10 relative">

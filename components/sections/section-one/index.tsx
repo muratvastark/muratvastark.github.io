@@ -6,7 +6,7 @@ const SectionOne: FC = () => {
     return (
         <section className="section-one-gradient">
             <SectionCard className="h-[calc(60vh_-_100px)]">
-                <div className="text-2xl sm:text-4xl font-bold tracking-wide">
+                <div className="text-2xl sm:text-4xl font-bold tracking-wide px-10 pl-20">
                     <div className="text-gray-400/90 font-mono text-xl">Hi there, I&apos;m Murat K. - aka Muratva Stark 👋</div>
                     <div className="text-white">I&apos;m a Backend Developer and Student.</div>
                 </div>

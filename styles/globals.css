@@ -11,6 +11,54 @@ body {
   @apply mb-28 bg-[#060606] max-h-[100rem] h-screen overflow-x-hidden overflow-y-scroll font-medium text-slate-100 antialiased selection:text-slate-300;
 }
 
+.codeBlock {
+  margin-top: 30px;
+  position: relative;
+}
+
+.discord-card {
+  display: flex;
+  align-items: center;
+  border-radius: 12px;
+  padding: 16px;
+  backdrop-filter: blur(10px);
+  border: 1px solid hsl(0, 0%, 20.5%);
+  position: relative;
+  line-height: 16px;
+  background: hsla(0, 0%, 100%, 0.026);
+  white-space: pre-wrap;
+  box-shadow: rgb(0 0 0 / 10%) 0px 5px 30px -5px;
+}
+
+.shine {
+  background: linear-gradient(90deg,
+      rgba(56, 189, 248, 0),
+      hsl(0, 0%, 90.9%) 20%,
+      hsl(0, 0%, 90.9%) 67.19%,
+      rgba(236, 72, 153, 0));
+  height: 1px;
+  position: absolute;
+  top: -1px;
+  width: 94%;
+  z-index: -1;
+}
+
+.line3 {
+  opacity: 0.2;
+  inset: 0;
+  backdrop-filter: blur(20px);
+  height: 100px;
+  width: calc(100% + 32px);
+  position: absolute;
+  top: -16px;
+  left: -16px;
+  border-radius: 16px 16px 0 0;
+  transform: translateZ(0);
+  -webkit-mask: linear-gradient(#000, #0000);
+  mask: linear-gradient(#000, #0000);
+  background: linear-gradient(to top, hsl(0, 0%, 24.3%), hsl(0, 0%, 24.3%));
+}
+
 .section-one-gradient {
   background-image: radial-gradient(ellipse 30% 60% at 20% 40%, rgba(52, 114, 221, 0.1), transparent), radial-gradient(ellipse 30% 60% at 80% 40%, rgba(120, 119, 198, 0.15), transparent);
 }
@@ -42,4 +90,3 @@ body {
   pointer-events: none;
   transition: 0.3s all cubic-bezier(.25, .46, .45, .94);
 }
-
