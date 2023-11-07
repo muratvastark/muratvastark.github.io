@@ -4,7 +4,7 @@ import { FC } from "react";
 import Image from "next/image";
 
 const SectionFive: FC = () => {
-    const { data } = useLanyard("470974660264067072");
+    const { data } = useLanyard("1158396365701910588");
 
     return (
         <section>
