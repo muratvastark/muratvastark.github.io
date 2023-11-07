@@ -12,7 +12,7 @@ const SectionFour: FC = () => {
     const socials = [
         { icon: SiTwitter, url: "https://twitter.com/muratvastark", name: "Twitter", className: "bg-cyan-500" },
         { icon: AiFillGithub, url: "https://github.com/muratvastark", name: "Github", className: "bg-black border-2 border-[#111]" },
-        { icon: SiDiscord, url: "https://discord.com/users/470974660264067072", name: "Discord", className: "bg-slate-600" },
+        { icon: SiDiscord, url: "https://discord.com/users/1158396365701910588", name: "Discord", className: "bg-slate-600" },
         { icon: SiSpotify, url: "https://open.spotify.com/user/fezs35azf7ja0mdvxv606juk6", name: "Spotify", className: "bg-green-600" },
         { icon: SiReddit, url: "https://www.reddit.com/user/muratvastark", name: "Reddit", className: "bg-orange-600" },
     ];
